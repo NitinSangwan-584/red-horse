@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url(./root.css);
+
+.b-1px {
+    border: 1px solid #000000;
+    width: 87px;
+}
+hr{
+    border-color: #000000;
+}
+.btn-1 {
+    border: 1px solid #090808;
+    padding: 20px 66px;
+}
+
+.btn-1:hover {
+    border: 1px solid #090808;
+    background: black;
+    color: grey;
+}
+
+.bongo-w {
+    max-width: 485px;
+    z-index: 5;
+}
+
+.bongo-b {
+    border: 1px solid #090808;
+    width: 485px;
+    height: 467px;
+    top: 4%;
+    left: 3%;
+    z-index: 1;
+}
+
+.crd {
+    max-width: 364px;
+}
+
+.crd:hover {
+    opacity: 75%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 27.19%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.work {
+    bottom: 10px;
+    left: 20px;
+}
+
+
+.hoar {
+    top: 40%;
+    left: 5%;
+}
+
+
