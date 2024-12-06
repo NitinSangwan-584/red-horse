@@ -51,14 +51,9 @@
     left: 3%;
 }
 
-.effect:hover {
-    -webkit-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    transform: scale(0.8);
-    transition: 1s ease;
+.bg-img:hover {
+    opacity: var(--opacity-80);
 }
-
-/* section-2 */
 
 .bg-img {
     background-image: url(../img/project.png);
@@ -68,11 +63,9 @@
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
-
-.project:hover {
-    opacity: var(--opacity-80);
+.d-img{
+    display:none;
 }
-
 .text {
     left: 6%;
 }
@@ -100,8 +93,6 @@
     bottom: 10px;
     left: 20px;
 }
-
-/* section-4 */
 .logo-crd {
     width: 267px;
     height: 267px;
@@ -151,6 +142,7 @@
 
 .chng:hover {
     color: var(--red) !important;
+    text-decoration: underline;
 }
 
 .logo-box {
@@ -171,7 +163,7 @@
         position: fixed;
         top: 0px;
         right: -100%;
-        height: 100% !important;
+        height: 100%;
         width: 100%;
         backdrop-filter: blur(50px);
         transition: all 200ms linear;
