@@ -15,7 +15,7 @@
 
 <body>
     <!-- header -->
-    <header class="bg d-flex align-items-center justify-content-center flex-column">
+    <header class="bg d-flex align-items-center justify-content-center flex-column position-relative">
         <div class="container">
             <nav class="py-30 position-relative d-flex w-100">
                 <div class="menu-icon-bar w-100 d-flex justify-content-between align-items-center">
@@ -54,6 +54,14 @@
                     <h1 class="font-plus heading-w fw-bolder text-white text-xl lg-76px text-start">
                         Elevating Construction Excellence
                     </h1>
+                </div>
+                <div class="d-flex position-absolute play-btn gap-3">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.0834 19.25L19.25 14L11.0834 8.75004V19.25ZM14 25.6667C12.3862 25.6667 10.8695 25.3603 9.45004 24.7474C8.0306 24.1353 6.79587 23.3042 5.74587 22.2542C4.69587 21.2042 3.86482 19.9695 3.25271 18.55C2.63982 17.1306 2.33337 15.6139 2.33337 14C2.33337 12.3862 2.63982 10.8695 3.25271 9.45004C3.86482 8.0306 4.69587 6.79587 5.74587 5.74587C6.79587 4.69587 8.0306 3.86443 9.45004 3.25154C10.8695 2.63943 12.3862 2.33337 14 2.33337C15.6139 2.33337 17.1306 2.63943 18.55 3.25154C19.9695 3.86443 21.2042 4.69587 22.2542 5.74587C23.3042 6.79587 24.1353 8.0306 24.7474 9.45004C25.3603 10.8695 25.6667 12.3862 25.6667 14C25.6667 15.6139 25.3603 17.1306 24.7474 18.55C24.1353 19.9695 23.3042 21.2042 22.2542 22.2542C21.2042 23.3042 19.9695 24.1353 18.55 24.7474C17.1306 25.3603 15.6139 25.6667 14 25.6667Z"
+                            fill="#DB1A00"></path>
+                    </svg>
+                    <div class="text-white font-plus fw-normal lh-20px li-hover">Watch Video</div>
                 </div>
             </div>
         </section>
@@ -138,7 +146,7 @@
                 <h3 class="font-plus fw-semibold text-sm">OUR PROJECTS</h3>
             </div>
             <!-- Title and Button -->
-            <div class="d-flex justify-content-between flex-column flex-md-row align-items-center my-4">
+            <div class="d-flex justify-content-between flex-column flex-md-row align-items-center my-4 a">
                 <h2 class="font-plus text-lg fw-bolder lh-57px text-center text-md-start">Featured Projects</h2>
                 <button class="font-plus bg-white fw-medium lh-20px btn-1 mt-3 mt-md-0">See All Projects</button>
             </div>
@@ -151,7 +159,7 @@
                         <svg width="143" height="2" viewBox="0 0 143 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <line y1="1" x2="143" y2="1" stroke="white" />
                         </svg>
-                        <h2 class="font-plus fw-normal fs-5 lh-24px text-white opacity-80">Hoar Construction</h2>
+                        <h3 class="font-plus fw-normal fs-5 lh-24px text-white opacity-80">Hoar Construction</h3>
                     </div>
                 </div>
             </div>
@@ -159,8 +167,10 @@
             <div
                 class="d-flex align-items-center justify-content-between flex-column flex-md-row mt-5 text-center text-md-start">
                 <h3 class="font-plus fw-semibold lh-43px fs-1 text-black opacity-60">Conrad Hotel</h3>
-                <div class="d-flex align-items-center  flex-column flex-md-row mt-3 mt-md-0">
-                    <hr class="hr-l w-100 w-md-auto">
+                <div class="d-flex align-items-center pr-50 flex-column flex-sm-row gap-3">
+                    <svg width="143" height="2" viewBox="0 0 143 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="1" x2="143" y2="1" stroke="black" />
+                    </svg>
                     <h3 class="font-plus fw-normal fs-5 lh-24px text-black opacity-80">Hoar Construction</h3>
                 </div>
             </div>
@@ -169,8 +179,10 @@
             <div
                 class="d-flex align-items-center justify-content-between flex-column flex-md-row text-center text-md-start">
                 <h3 class="font-plus fw-semibold lh-43px fs-1 text-black opacity-60">The Standard</h3>
-                <div class="d-flex align-items-center gap-3 flex-column flex-md-row mt-3 mt-md-0">
-                    <hr class="hr-l w-100 w-md-auto">
+                <div class="d-flex align-items-center pr-50 flex-column flex-sm-row gap-3">
+                    <svg width="143" height="2" viewBox="0 0 143 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="1" x2="143" y2="1" stroke="black" />
+                    </svg>
                     <h3 class="font-plus fw-normal fs-5 lh-24px text-black opacity-80">Landmark Construction</h3>
                 </div>
             </div>
@@ -241,7 +253,7 @@
             <h2 class="fw-bolder text-lg lh-57px pt-2 font-plus">What Are You Envisioning?</h2>
             <div class="row mt-4">
                 <div class="col-12 col-md-6">
-                    <input class="fw-normal text-sm lh-20px font-plus w-100 h-58 p-2" type="name"
+                    <input class="fw-normal text-sm lh-20px font-plus w-100 h-58 mt-3 p-2" type="name"
                         placeholder="First Name">
                 </div>
                 <div class="col-12 col-md-6">
@@ -251,7 +263,8 @@
             </div>
             <div class="row mt-4">
                 <div class="col-12 col-md-6">
-                    <input class="fw-normal text-sm lh-20px font-plus w-100 h-58  p-2" type="Phone" placeholder="Phone">
+                    <input class="fw-normal text-sm lh-20px font-plus w-100 h-58 mt-3 p-2" type="Phone"
+                        placeholder="Phone">
                 </div>
                 <div class="col-12 col-md-6">
                     <input class="fw-normal text-sm lh-20px font-plus w-100 h-58 mt-3 p-2" type="Email"

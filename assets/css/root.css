@@ -79,7 +79,11 @@
 .opacity-80 {
     opacity: var(--opacity-80);
 }
-
+@media (max-width:992px) {
+    .d-img {
+        display: block !important;
+    }
+}
 @media (max-width:768px) {
     .text-lg {
         font-size: 40px;
@@ -100,10 +104,6 @@
     .btn-1 {
         border: 1px solid !important;
         padding: 15px 30px !important;
-    }
-
-    .d-img {
-        display: block !important;
     }
 }
 
@@ -127,9 +127,5 @@
     .btn-1 {
         border: 1px solid !important;
         padding: 5px 10px !important;
-    }
-
-    .d-img {
-        display: block !important;
     }
 }
