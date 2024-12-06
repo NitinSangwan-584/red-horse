@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @import url(./root.css);
 
-.b-1px {
-    border: 1px solid #000000;
+.hr-line {
+    border: 1px solid var(--color-black);
     width: 87px;
 }
-hr{
-    border-color: #000000;
+
+.hr-l {
+    border: 1px solid var(--color-black);
+    width: 143px;
 }
+
 .btn-1 {
-    border: 1px solid #090808;
-    padding: 20px 66px;
+    border: 1px solid;
+    padding: 20px 40px;
 }
 
 .btn-1:hover {
-    border: 1px solid #090808;
-    background: black;
-    color: grey;
+    background: var(--color-grey) !important;
+    color: var(--color-white);
 }
 
 .bongo-w {
@@ -26,20 +28,55 @@ hr{
 
 .bongo-b {
     border: 1px solid #090808;
-    width: 485px;
+    max-width: 485px;
     height: 467px;
     top: 4%;
     left: 3%;
-    z-index: 1;
+}
+
+.effect:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+/* section-2 */
+
+.project {
+    background-image: url(../img/project.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 162px;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.project:hover {
+    opacity: var(--opacity-80);
+}
+
+.text {
+    left: 6%;
+}
+
+.text-2 {
+    right: 10%;
+}
+
+.text-line {
+    right: 20%;
 }
 
 .crd {
     max-width: 364px;
+    transition: all .5s ease-in-out;
 }
 
 .crd:hover {
     opacity: 75%;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 27.19%, rgba(0, 0, 0, 0.5) 100%);
+    box-shadow: linear-gradient(180deg, rgba(0, 0, 0, 0) 27.19%, rgba(0, 0, 0, 0.5) 100%);
+    transform: translateY(-10px);
 }
 
 .work {
@@ -47,10 +84,61 @@ hr{
     left: 20px;
 }
 
-
-.hoar {
-    top: 40%;
-    left: 5%;
+/* section-4 */
+.logo-crd {
+    width: 267px;
+    height: 267px;
+    border: 1px solid #0000004D;
+    transition: transform 0.5s;
 }
 
+.logo-crd:hover {
+    border: 1px solid lightgray;
+    background: lightgray !important;
+    transform: scale(1.05);
+}
+.top{
+    top: 30%;
+}
+.top-2{
+    top: 33%;
+}
+.right{
+    right: 0;
+}
+.color-white{
+    color: white !important;
+}
 
+.h-162 {
+    height: 162px;
+}
+
+.h-58 {
+    height: 58px;
+}
+
+.circle {
+    top: 20px;
+    right: 20px;
+}
+
+.mt-60 {
+    margin-top: 45%;
+    padding: 20px;
+}
+
+.chng:hover {
+    color: var(--red) !important;
+}
+
+.logo-box {
+    width: 40px;
+    height: 40px;
+    padding: 10.67px 10.06px 9.33px 10.67px;
+    border: 1px solid #FFFFFF4D;
+}
+
+.footer-hr {
+    border: 1px solid #FFFFFF4D;
+}
