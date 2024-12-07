@@ -36,6 +36,7 @@
 .btn-1 {
     border: 1px solid;
     padding: 20px 40px;
+    transition: all 0.3s ease-in-out;
 }
 
 .btn-1:hover {
@@ -177,7 +178,8 @@
         transition: all 200ms linear;
         transition: all 200ms linear;
     }
-       .nav-option {
+
+    .nav-option {
         flex-direction: column;
     }
 
